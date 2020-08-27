@@ -1,0 +1,27 @@
+{
+  "name": "vue3-learning",
+  "version": "1.0.0",
+  "description": "vue3 learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --color --open"
+  },
+  "keywords": [
+    "vue3",
+    "webpack"
+  ],
+  "author": "gongph",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.9",
+    "html-webpack-plugin": "^4.3.0",
+    "vue-loader": "^16.0.0-alpha.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.9"
+  }
+}
