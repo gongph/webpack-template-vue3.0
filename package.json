@@ -4,8 +4,8 @@
   "description": "vue3 learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --color --open"
+    "dev": "webpack-dev-server --color --open",
+    "test": "jest"
   },
   "keywords": [
     "vue3",
@@ -14,8 +14,15 @@
   "author": "gongph",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
     "@vue/compiler-sfc": "^3.0.0-rc.9",
+    "@vue/test-utils": "^2.0.0-beta.3",
+    "babel-jest": "^26.3.0",
     "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.4.2",
+    "typescript": "^4.0.2",
+    "vue-jest": "vuejs/vue-jest#next",
     "vue-loader": "^16.0.0-alpha.3",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
